@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97CC5F882E29002E0E48435F /* Pods_Optima_Coding_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F01C09C269D79CC70CE800 /* Pods_Optima_Coding_ChallengeUITests.framework */; };
+		A4E897F159A12333DD713B39 /* Pods_Optima_Coding_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB2ED24712ED575633F041B /* Pods_Optima_Coding_Challenge.framework */; };
+		A809A0962097BF7B007FF166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0952097BF7B007FF166 /* AppDelegate.swift */; };
+		A809A09B2097BF7B007FF166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A809A0992097BF7B007FF166 /* Main.storyboard */; };
+		A809A09D2097BF7C007FF166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A809A09C2097BF7C007FF166 /* Assets.xcassets */; };
+		A809A0A02097BF7C007FF166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A809A09E2097BF7C007FF166 /* LaunchScreen.storyboard */; };
+		A809A0AB2097BF7C007FF166 /* Optima_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0AA2097BF7C007FF166 /* Optima_Coding_ChallengeTests.swift */; };
+		A809A0B62097BF7C007FF166 /* Optima_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0B52097BF7C007FF166 /* Optima_Coding_ChallengeUITests.swift */; };
+		A809A0C72097C0C9007FF166 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0C62097C0C9007FF166 /* AppAppearance.swift */; };
+		A809A0CD2097C254007FF166 /* GoogleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0CC2097C254007FF166 /* GoogleSignInViewController.swift */; };
+		A809A0CF2097C271007FF166 /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0CE2097C271007FF166 /* SearchCollectionViewController.swift */; };
+		A809A0D12097C28A007FF166 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0D02097C28A007FF166 /* SearchCollectionViewCell.swift */; };
+		A809A0D32097C2A7007FF166 /* UIAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809A0D22097C2A7007FF166 /* UIAlertViewController.swift */; };
+		A809A0D72097C75F007FF166 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A809A0D62097C75F007FF166 /* GoogleService-Info.plist */; };
+		EB80D058555A6224FD9920E3 /* Pods_Optima_Coding_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BA8285C81DDB17F2359A8F /* Pods_Optima_Coding_ChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A809A0A72097BF7C007FF166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A809A08A2097BF7B007FF166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A809A0912097BF7B007FF166;
+			remoteInfo = "Optima Coding Challenge";
+		};
+		A809A0B22097BF7C007FF166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A809A08A2097BF7B007FF166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A809A0912097BF7B007FF166;
+			remoteInfo = "Optima Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BCC236CBD3BCDD396F63145 /* Pods-Optima Coding ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optima Coding ChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Optima Coding ChallengeUITests/Pods-Optima Coding ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB2ED24712ED575633F041B /* Pods_Optima_Coding_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optima_Coding_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA5F75710056327EAE5EAE2 /* Pods-Optima Coding ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optima Coding ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optima Coding ChallengeTests/Pods-Optima Coding ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7747C9204291A91EBF25904C /* Pods-Optima Coding ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optima Coding ChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Optima Coding ChallengeTests/Pods-Optima Coding ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		99BA8285C81DDB17F2359A8F /* Pods_Optima_Coding_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optima_Coding_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CCEB0055060E2F85C49300 /* Pods-Optima Coding Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optima Coding Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Optima Coding Challenge/Pods-Optima Coding Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		A809A0922097BF7B007FF166 /* Optima Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Optima Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A809A0952097BF7B007FF166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A809A09A2097BF7B007FF166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A809A09C2097BF7C007FF166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A809A09F2097BF7C007FF166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A809A0A12097BF7C007FF166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A809A0A62097BF7C007FF166 /* Optima Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optima Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A809A0AA2097BF7C007FF166 /* Optima_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optima_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		A809A0AC2097BF7C007FF166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A809A0B12097BF7C007FF166 /* Optima Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optima Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A809A0B52097BF7C007FF166 /* Optima_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optima_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
+		A809A0B72097BF7C007FF166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A809A0C32097C043007FF166 /* Optima Coding Challenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Optima Coding Challenge-Bridging-Header.h"; sourceTree = "<group>"; };
+		A809A0C62097C0C9007FF166 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		A809A0CC2097C254007FF166 /* GoogleSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInViewController.swift; sourceTree = "<group>"; };
+		A809A0CE2097C271007FF166 /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = "<group>"; };
+		A809A0D02097C28A007FF166 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		A809A0D22097C2A7007FF166 /* UIAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewController.swift; sourceTree = "<group>"; };
+		A809A0D62097C75F007FF166 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACED678D2DA2E337659E24B1 /* Pods-Optima Coding Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optima Coding Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optima Coding Challenge/Pods-Optima Coding Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B56CDAFC5E72D1E56DEE4AE3 /* Pods-Optima Coding ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Optima Coding ChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Optima Coding ChallengeUITests/Pods-Optima Coding ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9F01C09C269D79CC70CE800 /* Pods_Optima_Coding_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Optima_Coding_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A809A08F2097BF7B007FF166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E897F159A12333DD713B39 /* Pods_Optima_Coding_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A809A0A32097BF7C007FF166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB80D058555A6224FD9920E3 /* Pods_Optima_Coding_ChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A809A0AE2097BF7C007FF166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CC5F882E29002E0E48435F /* Pods_Optima_Coding_ChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C867FDDBFADB95AF6B2B405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACED678D2DA2E337659E24B1 /* Pods-Optima Coding Challenge.debug.xcconfig */,
+				A5CCEB0055060E2F85C49300 /* Pods-Optima Coding Challenge.release.xcconfig */,
+				4CA5F75710056327EAE5EAE2 /* Pods-Optima Coding ChallengeTests.debug.xcconfig */,
+				7747C9204291A91EBF25904C /* Pods-Optima Coding ChallengeTests.release.xcconfig */,
+				B56CDAFC5E72D1E56DEE4AE3 /* Pods-Optima Coding ChallengeUITests.debug.xcconfig */,
+				1BCC236CBD3BCDD396F63145 /* Pods-Optima Coding ChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A809A0892097BF7B007FF166 = {
+			isa = PBXGroup;
+			children = (
+				A809A0942097BF7B007FF166 /* Optima Coding Challenge */,
+				A809A0A92097BF7C007FF166 /* Optima Coding ChallengeTests */,
+				A809A0B42097BF7C007FF166 /* Optima Coding ChallengeUITests */,
+				A809A0932097BF7B007FF166 /* Products */,
+				0C867FDDBFADB95AF6B2B405 /* Pods */,
+				DA714C16AA9BC02BC49E99EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A809A0932097BF7B007FF166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0922097BF7B007FF166 /* Optima Coding Challenge.app */,
+				A809A0A62097BF7C007FF166 /* Optima Coding ChallengeTests.xctest */,
+				A809A0B12097BF7C007FF166 /* Optima Coding ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A809A0942097BF7B007FF166 /* Optima Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0CB2097C23B007FF166 /* Controllers */,
+				A809A0CA2097C229007FF166 /* Storyboard */,
+				A809A0C92097C21F007FF166 /* Launch */,
+				A809A0C82097C204007FF166 /* App */,
+				A809A09C2097BF7C007FF166 /* Assets.xcassets */,
+				A809A0A12097BF7C007FF166 /* Info.plist */,
+				A809A0C32097C043007FF166 /* Optima Coding Challenge-Bridging-Header.h */,
+				A809A0D62097C75F007FF166 /* GoogleService-Info.plist */,
+			);
+			path = "Optima Coding Challenge";
+			sourceTree = "<group>";
+		};
+		A809A0A92097BF7C007FF166 /* Optima Coding ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0AA2097BF7C007FF166 /* Optima_Coding_ChallengeTests.swift */,
+				A809A0AC2097BF7C007FF166 /* Info.plist */,
+			);
+			path = "Optima Coding ChallengeTests";
+			sourceTree = "<group>";
+		};
+		A809A0B42097BF7C007FF166 /* Optima Coding ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0B52097BF7C007FF166 /* Optima_Coding_ChallengeUITests.swift */,
+				A809A0B72097BF7C007FF166 /* Info.plist */,
+			);
+			path = "Optima Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		A809A0C82097C204007FF166 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0C62097C0C9007FF166 /* AppAppearance.swift */,
+				A809A0952097BF7B007FF166 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A809A0C92097C21F007FF166 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				A809A09E2097BF7C007FF166 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		A809A0CA2097C229007FF166 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0992097BF7B007FF166 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A809A0CB2097C23B007FF166 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A809A0CC2097C254007FF166 /* GoogleSignInViewController.swift */,
+				A809A0CE2097C271007FF166 /* SearchCollectionViewController.swift */,
+				A809A0D02097C28A007FF166 /* SearchCollectionViewCell.swift */,
+				A809A0D22097C2A7007FF166 /* UIAlertViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA714C16AA9BC02BC49E99EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FB2ED24712ED575633F041B /* Pods_Optima_Coding_Challenge.framework */,
+				99BA8285C81DDB17F2359A8F /* Pods_Optima_Coding_ChallengeTests.framework */,
+				C9F01C09C269D79CC70CE800 /* Pods_Optima_Coding_ChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A809A0912097BF7B007FF166 /* Optima Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A809A0BA2097BF7C007FF166 /* Build configuration list for PBXNativeTarget "Optima Coding Challenge" */;
+			buildPhases = (
+				C071408FBD6907AB04A7C4D8 /* [CP] Check Pods Manifest.lock */,
+				A809A08E2097BF7B007FF166 /* Sources */,
+				A809A08F2097BF7B007FF166 /* Frameworks */,
+				A809A0902097BF7B007FF166 /* Resources */,
+				7CE26D9FC45E1681CCBF13E3 /* [CP] Embed Pods Frameworks */,
+				FEAACA11F3065F596861713C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Optima Coding Challenge";
+			productName = "Optima Coding Challenge";
+			productReference = A809A0922097BF7B007FF166 /* Optima Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A809A0A52097BF7C007FF166 /* Optima Coding ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A809A0BD2097BF7C007FF166 /* Build configuration list for PBXNativeTarget "Optima Coding ChallengeTests" */;
+			buildPhases = (
+				BB93A090C56E8F5CF99448CF /* [CP] Check Pods Manifest.lock */,
+				A809A0A22097BF7C007FF166 /* Sources */,
+				A809A0A32097BF7C007FF166 /* Frameworks */,
+				A809A0A42097BF7C007FF166 /* Resources */,
+				9B13BFBBA6051B47122AD753 /* [CP] Embed Pods Frameworks */,
+				726AED35449431CA31AEA3EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A809A0A82097BF7C007FF166 /* PBXTargetDependency */,
+			);
+			name = "Optima Coding ChallengeTests";
+			productName = "Optima Coding ChallengeTests";
+			productReference = A809A0A62097BF7C007FF166 /* Optima Coding ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A809A0B02097BF7C007FF166 /* Optima Coding ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A809A0C02097BF7C007FF166 /* Build configuration list for PBXNativeTarget "Optima Coding ChallengeUITests" */;
+			buildPhases = (
+				CA3C2C33A68AD0FEEAFBE3A4 /* [CP] Check Pods Manifest.lock */,
+				A809A0AD2097BF7C007FF166 /* Sources */,
+				A809A0AE2097BF7C007FF166 /* Frameworks */,
+				A809A0AF2097BF7C007FF166 /* Resources */,
+				C6A58FC38A2BC3D19A8315D6 /* [CP] Embed Pods Frameworks */,
+				43B749DF4FBD7CD093B69AFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A809A0B32097BF7C007FF166 /* PBXTargetDependency */,
+			);
+			name = "Optima Coding ChallengeUITests";
+			productName = "Optima Coding ChallengeUITests";
+			productReference = A809A0B12097BF7C007FF166 /* Optima Coding ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A809A08A2097BF7B007FF166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Sukhpreet  Deol";
+				TargetAttributes = {
+					A809A0912097BF7B007FF166 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					A809A0A52097BF7C007FF166 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A809A0912097BF7B007FF166;
+					};
+					A809A0B02097BF7C007FF166 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A809A0912097BF7B007FF166;
+					};
+				};
+			};
+			buildConfigurationList = A809A08D2097BF7B007FF166 /* Build configuration list for PBXProject "Optima Coding Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A809A0892097BF7B007FF166;
+			productRefGroup = A809A0932097BF7B007FF166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A809A0912097BF7B007FF166 /* Optima Coding Challenge */,
+				A809A0A52097BF7C007FF166 /* Optima Coding ChallengeTests */,
+				A809A0B02097BF7C007FF166 /* Optima Coding ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A809A0902097BF7B007FF166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809A0A02097BF7C007FF166 /* LaunchScreen.storyboard in Resources */,
+				A809A0D72097C75F007FF166 /* GoogleService-Info.plist in Resources */,
+				A809A09D2097BF7C007FF166 /* Assets.xcassets in Resources */,
+				A809A09B2097BF7B007FF166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A809A0A42097BF7C007FF166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A809A0AF2097BF7C007FF166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43B749DF4FBD7CD093B69AFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding ChallengeUITests/Pods-Optima Coding ChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		726AED35449431CA31AEA3EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding ChallengeTests/Pods-Optima Coding ChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE26D9FC45E1681CCBF13E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding Challenge/Pods-Optima Coding Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ionicons/ionicons.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ionicons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding Challenge/Pods-Optima Coding Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B13BFBBA6051B47122AD753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding ChallengeTests/Pods-Optima Coding ChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB93A090C56E8F5CF99448CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optima Coding ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C071408FBD6907AB04A7C4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optima Coding Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A58FC38A2BC3D19A8315D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding ChallengeUITests/Pods-Optima Coding ChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3C2C33A68AD0FEEAFBE3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Optima Coding ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAACA11F3065F596861713C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding Challenge/Pods-Optima Coding Challenge-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Optima Coding Challenge/Pods-Optima Coding Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A809A08E2097BF7B007FF166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809A0CF2097C271007FF166 /* SearchCollectionViewController.swift in Sources */,
+				A809A0CD2097C254007FF166 /* GoogleSignInViewController.swift in Sources */,
+				A809A0C72097C0C9007FF166 /* AppAppearance.swift in Sources */,
+				A809A0D32097C2A7007FF166 /* UIAlertViewController.swift in Sources */,
+				A809A0962097BF7B007FF166 /* AppDelegate.swift in Sources */,
+				A809A0D12097C28A007FF166 /* SearchCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A809A0A22097BF7C007FF166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809A0AB2097BF7C007FF166 /* Optima_Coding_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A809A0AD2097BF7C007FF166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809A0B62097BF7C007FF166 /* Optima_Coding_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A809A0A82097BF7C007FF166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A809A0912097BF7B007FF166 /* Optima Coding Challenge */;
+			targetProxy = A809A0A72097BF7C007FF166 /* PBXContainerItemProxy */;
+		};
+		A809A0B32097BF7C007FF166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A809A0912097BF7B007FF166 /* Optima Coding Challenge */;
+			targetProxy = A809A0B22097BF7C007FF166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A809A0992097BF7B007FF166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A809A09A2097BF7B007FF166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A809A09E2097BF7C007FF166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A809A09F2097BF7C007FF166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A809A0B82097BF7C007FF166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A809A0B92097BF7C007FF166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A809A0BB2097BF7C007FF166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACED678D2DA2E337659E24B1 /* Pods-Optima Coding Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4MYW66V7A;
+				INFOPLIST_FILE = "Optima Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Optima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Optima Coding Challenge/Optima Coding Challenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A809A0BC2097BF7C007FF166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CCEB0055060E2F85C49300 /* Pods-Optima Coding Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4MYW66V7A;
+				INFOPLIST_FILE = "Optima Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Optima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Optima Coding Challenge/Optima Coding Challenge-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A809A0BE2097BF7C007FF166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA5F75710056327EAE5EAE2 /* Pods-Optima Coding ChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4MYW66V7A;
+				INFOPLIST_FILE = "Optima Coding ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssdeol.Optima-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optima Coding Challenge.app/Optima Coding Challenge";
+			};
+			name = Debug;
+		};
+		A809A0BF2097BF7C007FF166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7747C9204291A91EBF25904C /* Pods-Optima Coding ChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4MYW66V7A;
+				INFOPLIST_FILE = "Optima Coding ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssdeol.Optima-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optima Coding Challenge.app/Optima Coding Challenge";
+			};
+			name = Release;
+		};
+		A809A0C12097BF7C007FF166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56CDAFC5E72D1E56DEE4AE3 /* Pods-Optima Coding ChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4MYW66V7A;
+				INFOPLIST_FILE = "Optima Coding ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssdeol.Optima-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Optima Coding Challenge";
+			};
+			name = Debug;
+		};
+		A809A0C22097BF7C007FF166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCC236CBD3BCDD396F63145 /* Pods-Optima Coding ChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4MYW66V7A;
+				INFOPLIST_FILE = "Optima Coding ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssdeol.Optima-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Optima Coding Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A809A08D2097BF7B007FF166 /* Build configuration list for PBXProject "Optima Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A809A0B82097BF7C007FF166 /* Debug */,
+				A809A0B92097BF7C007FF166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A809A0BA2097BF7C007FF166 /* Build configuration list for PBXNativeTarget "Optima Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A809A0BB2097BF7C007FF166 /* Debug */,
+				A809A0BC2097BF7C007FF166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A809A0BD2097BF7C007FF166 /* Build configuration list for PBXNativeTarget "Optima Coding ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A809A0BE2097BF7C007FF166 /* Debug */,
+				A809A0BF2097BF7C007FF166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A809A0C02097BF7C007FF166 /* Build configuration list for PBXNativeTarget "Optima Coding ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A809A0C12097BF7C007FF166 /* Debug */,
+				A809A0C22097BF7C007FF166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A809A08A2097BF7B007FF166 /* Project object */;
+}
